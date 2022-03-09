@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MainMenu{
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo a{
+    float: left;
+    color: #2d4dcb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navegacion a{
+    float: right;
+    color: #6d7b93;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+}
+
+.resaltado{
+    background-color: #3050ce;
+    font-size: 30px;
+    border-radius: 10px;
+}
