@@ -1,0 +1,29 @@
+
+
+.Seccion1{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+
+.textoSeccion1{
+    flex: 1;
+    width: 50%;
+    text-align:center;
+    background-color: blue;
+}
+
+.textoSeccion1 p{
+    top: 50%;
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    
+}
+
+
+.imgSeccion1{
+    float: right;
+    width: 50%;
+}

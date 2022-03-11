@@ -1,11 +1,13 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
 }
 
 .MainMenu{
     overflow: hidden;
     background-color: white;
+    opacity: 0.5;
 }
 
 .logo a{
@@ -14,7 +16,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 40px;
 }
 .navegacion a{
     float: right;
@@ -22,7 +24,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     display: inline;
 }
 
