@@ -1,8 +1,103 @@
+.seccion1{
+    display: inline-flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 50rem;
+
+}
+
+article{
+    /* background-color: bisque; */
+    width: 50%;
+}
+
+article h1{
+    /* display: inline-flex; */
+    font-size: 40px;
+    color: #1f3e72;
+    margin-left: 7.4rem;
+    margin-top: 7.4rem;
+    margin-bottom: 0;
+    width: 50%;
+    /* background-color: green; */
+}
+
+article p{
+    /* background-color: aquamarine; */
+    color: #78859b;
+    font-size: 24px;
+    width: 50%;
+    margin-left: 7.4rem;
+}
+
+article div{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 7.4rem;
+    margin-top: 2rem;
+    /* background-color: grey; */
+}
+
+article div label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #78859b;
+}
+
+article div label img{
+    width: 15px;
+    height: 15px;
+}
+
+/*schedule*/
+.schedule{
+    margin-top: 5rem;
+    display: block;
+    /* background-color: green; */
+}
+
+.form{
+    /* display: flex; */
+    border-radius: 3px;
+    margin: 0;
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+}
+
+
+/*imagen enfermera*/
+.imgInjection{
+    width: 50%;
+    background-image: url("../Img/nurse-red-mask-injection.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
 
 
 .Seccion1{
     width: 100%;
     display: flex;
+    background-color: gray;
 }
 
 .textoSeccion1{
@@ -18,51 +113,6 @@
     margin-bottom: 30px;
     line-height: 28px;
 }
-
-.imgSeccion1{
-    float: right;
-    width: 50%;
-}
-
-/* .Imagen1{
-    background-image: url(../Img/nurse-red-mask-injection.jpg);
-    height: 60rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-color: black;
-} */
-/* 
-
-div .textoSeccion1 article p{
-    font-size: 30px;
-    color: papayawhip;
-    text-align: center;
-}
-
-div .textoSeccion1 article{
-    font-size: 15px;
-    color: red;
-    text-align:justify;
-} */
-
-/* 
-.textoSeccion1{
-    flex: 1;
-    width: 50%;
-    text-align:center;
-    background-color: blue;
-}
-
-.textoSeccion1 p{
-    top: 50%;
-    font-weight: bold;
-    font-size: 50px;
-    color: red;
-    text-align: center;
-    
-}
-
 
 .imgSeccion1{
     float: right;
