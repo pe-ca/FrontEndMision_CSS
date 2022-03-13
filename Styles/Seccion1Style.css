@@ -1,19 +1,19 @@
 .seccion1{
     display: inline-flex;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 100%;
     /* height: 50rem; */
 
 }
 
-article{
+.seccion1 article{
     /* background-color: bisque; */
     width: 50%;
 }
 
-article h1{
+.seccion1 article h1{
     /* display: inline-flex; */
-    font-size: 40px;
+    font-size: 55px;
     color: #1f3e72;
     margin-left: 7.4rem;
     margin-top: 7.4rem;
@@ -22,15 +22,15 @@ article h1{
     /* background-color: green; */
 }
 
-article p{
-    /* background-color: aquamarine; */
+.seccion1 article p{
+    /* background-color: red; */
     color: #78859b;
     font-size: 24px;
     width: 50%;
     margin-left: 7.4rem;
 }
 
-article div{
+.seccion1 article div{
     display: inline-flex;
     justify-content: space-between;
     width: 50%;
@@ -39,13 +39,13 @@ article div{
     /* background-color: grey; */
 }
 
-article div label{
+.seccion1 article div label{
     font-size: 15px;
     font-weight: bold;
     color: #78859b;
 }
 
-article div label img{
+.seccion1 article div label img{
     width: 15px;
     height: 15px;
 }
