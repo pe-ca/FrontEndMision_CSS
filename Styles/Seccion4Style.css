@@ -1,0 +1,39 @@
+.seccion4{
+    display: inline-flex;
+    width: 100%;
+    /* margin-top: 5rem; */
+    background-color: papayawhip;
+}
+
+.seccion4 article{
+    width: 50%;
+    background-color: aliceblue;
+}
+
+.seccion4 h2{
+    font-size: 45px;
+    color: #1f3e72;
+    margin-left: 7.4rem;
+}
+
+.seccion4 p{
+    color: #78859b;
+    font-size: 24px;
+    margin-left: 7.4rem;
+}
+
+.seccion4 div .tarjeta{
+    display: inline-flex;
+}
+
+
+/*imgCell*/
+.seccion4 .imgCel{
+    background-image: url("../Img/using-cellphone-no-background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 50%;
+    margin-top: 10rem;
+
+}
