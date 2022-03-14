@@ -1,0 +1,100 @@
+.seccion3{
+    display: inline-flex;
+    width: 100%;
+    /* background-color: papayawhip; */
+    margin-top: 10rem;
+}
+
+/*imagen*/
+.seccion3 .imgMask{
+    background-image: url("../Img/mask-no-background.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    /* background-color: grey; */
+    width: 50%;
+    margin-top: 10rem;
+}
+
+/*desplegables*/
+.seccion3 article{
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.seccion3 article h2{
+    font-size: 45px;
+    color: #1f3e72;
+}
+
+.seccion3 article p{
+    color: #78859b;
+    font-size: 24px;
+    width: 85%;
+}
+
+.seccion3 .desplegables{
+    width: 75%;
+    margin-left: 1.5rem;
+}
+
+.seccion3 .desplegables .tarjeta{
+    display: inline-flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    border-style: solid;
+    border-color: rgba(249,249,254,255);
+    border-radius: 10px;
+    border-width: 4px;
+    width: 100%;
+    text-align: start;
+}
+
+.seccion3 div .info{
+    vertical-align: middle;
+    text-align: left;
+    width: 100%;
+}
+
+.seccion3 .desplegables .tarjeta .mainIcon{
+    margin: .5rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+.seccion3 .desplegables .tarjeta .stateIcon{
+    margin: .5rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+    text-align: left;
+    background-color: rgba(241,245,255,255);
+    size: 50%;
+}
+
+.seccion3 .desplegables .tarjeta .info .titulo{
+    vertical-align: middle;
+    font-size: 22px;
+    margin: .5rem;
+    /* background-color: #78859b; */
+}
+
+/* 
+
+.seccion3 .desplegables div .info{
+    display: inline-block;
+    background-color: aliceblue;
+    width: 80%;
+}
+
+.seccion3 .desplegables div .info p{
+    margin: 0;
+} */
+/* 
+.seccion3 .info .mainIcon{
+    margin: 2px;
+    padding: 2px;
+    size: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+} */
