@@ -1,12 +1,12 @@
 .seccion4{
     display: inline-flex;
     width: 100%;
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
     background-color: papayawhip;
 }
 
 .seccion4 article{
-    width: 50%;
+    width: 55%;
     background-color: aliceblue;
 }
 
@@ -20,11 +20,40 @@
     color: #78859b;
     font-size: 24px;
     margin-left: 7.4rem;
+    width: 70%;
+    /* background-color: grey; */
+}
+
+.seccion4 .contacto{
+    /* display: inline-flex; */
+    background-color: pink;
+    margin-left: 7.4rem;
+    width: 70%;
 }
 
 .seccion4 div .tarjeta{
+    text-align: center;
     display: inline-flex;
+    justify-content: space-between;
+    width: 45%;
+    background-color: grey;
 }
+
+.seccion4 div img{
+    background-color: aqua;
+}
+
+.seccion4 div h3{
+    background-color: blue;
+}
+
+.seccion4 div p{
+    background-color: azure;
+    margin-left: 0px;
+}
+
+
+
 
 
 /*imgCell*/
@@ -33,7 +62,6 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    width: 50%;
-    margin-top: 10rem;
-
+    width: 45%;
+    margin-top: 15rem;
 }
