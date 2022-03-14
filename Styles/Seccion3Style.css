@@ -9,11 +9,11 @@
 .seccion3 .imgMask{
     background-image: url("../Img/mask-no-background.png");
     background-size: cover;
-    background-position: bottom center;
+    background-position: top center;
     background-repeat: no-repeat;
     /* background-color: grey; */
     width: 50%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 /*desplegables*/
