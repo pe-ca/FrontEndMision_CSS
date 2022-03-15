@@ -8,8 +8,8 @@
 /*imagen*/
 .seccion3 .imgMask{
     background-image: url("../Img/mask-no-background.png");
-    background-size: cover;
-    background-position: top center;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     /* background-color: grey; */
     width: 50%;

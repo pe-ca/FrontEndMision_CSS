@@ -69,8 +69,8 @@
 .seccion4 .imgCel{
     background-image: url("../Img/using-cellphone-no-background.png");
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
     width: 45%;
     margin-top: 15rem;
 }
