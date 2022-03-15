@@ -1,0 +1,52 @@
+.seccionFooter{
+    background-color: #eef3ff;
+}
+
+.seccionFooter ul{
+    list-style: none;
+}
+
+.seccionFooter div{
+    display: inline-flex;
+}
+
+.seccionFooter li, .seccionFooter p{
+    color: #78859b;
+    font-size: 18px;
+}
+
+.seccionFooter h2{
+    margin-top: 0px;
+    padding-top: 5rem;
+    font-size: 30px;
+    color: #1f3e72;
+}
+
+.seccionFooter .detalles{
+    display: inline-flex;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.seccionFooter .columnaVaccination{
+    width: 50%;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.seccionFooter .columnaVaccination p{
+    width: 40%;
+}
+
+.seccionFooter .columna li{
+    padding-bottom: 1rem;
+}
+
+.seccionFooter .detalles .detalle1{
+    width: 60%;
+    padding-left: 7rem;
+}
+
+.seccionFooter .detalles .detalle2{
+    padding-right: 2rem;
+}
