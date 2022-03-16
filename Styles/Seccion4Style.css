@@ -24,26 +24,74 @@
 }
 
 .seccion4 .contacto{
-    /* display: inline-flex; */
-    /* justify-content: space-between; */
-    background-color: pink;
-    padding-left: 7.4rem;
-    width: 100%;
+    /* background-color: pink; */
+    justify-content: space-around;
+    margin-left: 7.4rem;
+    width: 40rem
 }
 
 .seccion4 div .tarjeta{
-    /* text-align: center; */
-    display: inline-flex;
-    /* justify-content: space-between; */
-    /* width: 45%; */
-    background-color: grey;
+    display: inline-block;
+    /* background-color: grey; */
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(249,249,254,255);
+    width: 16rem;
+    margin: .5rem;
 }
 
-.seccion4 div .infoContacto{
-    /* text-align: center; */
-    /* display: inline-flex; */
-    /* justify-content: space-between; */
-    /* width: 45%; */
+.seccion4 div .tarjeta .iconoDatos{
+    display: inline-flex;
+}
+
+.seccion4 div .tarjeta .iconoDatos .icon{
+    background-color: #eef3ff;
+    padding: .3rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #eef3ff;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.seccion4 div .tarjeta .iconoDatos .infoContacto{
+    /* background-color: white; */
+    padding: .3rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.seccion4 div .tarjeta .iconoDatos .infoContacto ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.seccion4 div .tarjeta .iconoDatos .infoContacto ul li h2{
+    font-size: 19px;
+    margin-left: 0px;
+}
+
+
+.seccion4 div .tarjeta .btnContacto{
+    background-color: #eef3ff;
+    color: #1f3e72;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+/* .seccion4 div .infoContacto{
     background-color: red;
 }
 
@@ -59,7 +107,7 @@
 .seccion4 div .infoContacto p{
     background-color: azure;
     margin-left: 0px;
-}
+} */
 
 
 
